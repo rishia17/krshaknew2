@@ -1,0 +1,45 @@
+# Python / Flask (Backend)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+instance/
+.env
+.env.*
+
+# Mac OS
+.DS_Store
+
+# Node / React Native (Frontend)
+frontend/node_modules/
+frontend/npm-debug.log
+frontend/yarn-error.log
+frontend/.expo/
+frontend/.expo-shared/
+frontend/dist/
+frontend/build/
+frontend/coverage/
+frontend/.env
+frontend/.env.*
+
+# Android / iOS specific (if any native folders exist inside frontend)
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/ios/build/
+frontend/ios/Pods/
+frontend/ios/Podfile.lock
+
+# Editor/IDE settings
+.vscode/
+frontend/.vscode/
+.idea/
+
+# General
+*.log
+*.swp
+*.swo
+*.tsbuildinfo
+*.keystore
